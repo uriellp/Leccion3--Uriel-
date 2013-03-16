@@ -10,7 +10,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: rgb(179, 1, 55);
+  background: rgb(207,108,53);
   //background-image: url("assets/Fondo.jpg"); 
   font-family: 'PT Sans Narrow', Arial, sans-serif;
   font-size: 20px;
@@ -36,13 +36,13 @@ h1 span, h5 {
   font-style: italic;
   color: #997f5a;
   font-weight: 400;
-  text-shadow: 0px 1px 1px #fff; }
+  text-shadow: 0px 1px 1px #000; }
 
 h1 {
   &:hover {
     text-shadow: 3px 3px 15px #e0d1bc; }
   span:hover {
-    color: #fff; } }
+    color: #000; } }
 
 /* Encabezado */
 
@@ -251,7 +251,7 @@ input[type=submit] {
   height: 820px;
   max-width: 1024px;
   margin: auto;
-  background-color: #F7E7CE;
+  background-color: #F7DA81;   
   border-top: 1px solid #DDD;
   border-left: 5px solid #DDD;
   -moz-box-shadow: 10px 10px 5px #888;
@@ -298,16 +298,26 @@ input[type=submit] {
 
 .itemSelected {
   background-color: rgb(193, 240, 255);
-  border: 3px solid rgb(247,231, 206); 
-  border: 2px dashed #000; 
-  
-  }
+  border: 3px solid rgb(255, 0, 0); }
 
 /* Aspecto de los contenedores al ser señalados */
 
 .itemOnDropArea {
   background-color: rgb(247,231, 206);
-  border: 3px solid rgb(247, 231, 206); 
-
-  }
-
+  border: 3px solid rgb(247, 231, 206); }
+    
+    
+h1 {
+      text-shadow: 0 1px 0 #bbb,
+                   0 2px 0 #bbb,
+                   0 3px 0 #aaa,
+                   0 4px 0 #aaa,
+                   0 5px 0 #999,
+                   0 6px 1px #000,
+                   0 0px 3px #000,
+                   0 1px 3px #000,
+                   0 3px 5px #000,
+             0 5px 10px #000,
+             0 5px 20px #000;
+}
+    

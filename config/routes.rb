@@ -1,4 +1,6 @@
 Unidad3::Application.routes.draw do
+  get "controlador/ejercicio2"
+
   get "controlador/ejercicio1"
 
   # The priority is based upon order of creation:
@@ -50,7 +52,7 @@ Unidad3::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+   root :to => 'controlador#ejercicio1'
 
   # See how all your routes lay out with "rake routes"
 
